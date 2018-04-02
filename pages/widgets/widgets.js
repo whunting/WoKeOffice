@@ -1,4 +1,4 @@
-const AV = require('../../utils/av-live-query-weapp-min');
+const AV = require('../../utils/av-weapp-min');
 const Todo = require('../../models/todo');
 
 Page({
@@ -15,9 +15,6 @@ Page({
 
   onPullDownRefreash: function() {
     wx.stopPullDownRefresh();
-    new AV.Query(Todo).find().then(todos => {
-      this.setData({todos});
-    }).catch(console.error);
   },
 
   updateDraft: function ({
@@ -32,6 +29,10 @@ Page({
 
   // 点击“添加”按钮触发添加新的Todo
   addTodo: function () {
+    var value = this.data.draft && this.data.draft.trim()
+    if (!value) {
+      return;
+    }
     var acl = new AV.ACL();
     acl.setPublicReadAccess(false);
     acl.setPublicWriteAccess(false);

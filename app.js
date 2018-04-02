@@ -1,5 +1,5 @@
 // LeanCloud 初始化
-const AV = require('./utils/av-live-query-weapp-min.js');
+const AV = require('./utils/av-weapp-min.js');
 
 AV.init({
   appId: 'GA0d7M4ncNpGH5MQTdNbVLEl-9Nh9j0Va',

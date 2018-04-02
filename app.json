@@ -8,7 +8,7 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "DailyWX",
     "navigationBarTextStyle": "black",
-    "enablePullDownRefresh": true
+    "enablePullDownRefresh": false
   },
   "tabBar": {
     "color": "#8A8A8A",

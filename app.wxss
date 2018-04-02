@@ -11,7 +11,8 @@
   box-sizing: border-box;
 } 
 
-page{
+Page{
   height: 100%;
   background-color: #EFEFF5;
+  overflow-y: hidden;
 }
