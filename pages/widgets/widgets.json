@@ -1,0 +1,5 @@
+{
+  "navigationBarTitleText": "Todo",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark"
+}

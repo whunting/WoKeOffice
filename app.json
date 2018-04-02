@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/widgets/widgets"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "DailyWX",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#8A8A8A",
+    "selectedColor": "#1296DB",
+
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "sources/icon/index.png",
+        "selectedIconPath": "sources/icon/index_selected.png"
+      },
+      {
+        "pagePath": "pages/widgets/widgets",
+        "text": "控件",
+        "iconPath": "sources/icon/widgets.png",
+        "selectedIconPath": "sources/icon/widgets_selected.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 5000,
+    "connectSocket": 5000,
+    "uploadFile": 5000,
+    "downloadFile": 5000
+  },
+  "debug": true
+}
