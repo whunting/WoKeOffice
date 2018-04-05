@@ -6,7 +6,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "DailyWX",
+    "navigationBarTitleText": "蜗壳办公",
     "navigationBarTextStyle": "black",
     "enablePullDownRefresh": false
   },
@@ -27,7 +27,8 @@
         "iconPath": "sources/icon/widgets.png",
         "selectedIconPath": "sources/icon/widgets_selected.png"
       }
-    ]
+    ],
+    "position": "bottom"
   },
   "networkTimeout": {
     "request": 5000,

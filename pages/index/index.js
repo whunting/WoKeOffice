@@ -1,7 +1,7 @@
 //index.js
 //获取应用实例
 const app = getApp();
-const AV = require('../../utils/av-weapp-min.js');
+const AV = require('../../utils/av-live-query-weapp-min.js');
 
 var appInstance = getApp()
 console.log(appInstance.globalData.message)

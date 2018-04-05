@@ -1,5 +1,5 @@
 // LeanCloud 初始化
-const AV = require('./utils/av-weapp-min.js');
+const AV = require('./utils/av-live-query-weapp-min.js');
 
 AV.init({
   appId: 'GA0d7M4ncNpGH5MQTdNbVLEl-9Nh9j0Va',
@@ -8,12 +8,15 @@ AV.init({
 
 //app.js
 App({
-  onLaunch: function (options) {
-    // LeanCloud用户系统登录&自动注册
-    AV.User.loginWithWeapp().then(user => {
-      this.globalData.user = user.toJSON();
-    }).catch(console.error);
+  // LeanCloud用户系统登录&自动注册
+  login: function() {
+    return AV.Promise.resolve(AV.User.current()).then(user =>
+      user ? (user.isAuthenticated().then(authed => authed ? user : null)) : null
+    ).then(user => user ? user : AV.User.LoginWithWeapp()
+    ).catch(error => console.error(error.message));
+  },
 
+  onLaunch: function (options) {
     // 登录
     wx.login({
       success: res => {
