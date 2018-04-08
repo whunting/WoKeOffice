@@ -1,7 +1,6 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/widgets/widgets",
     "pages/mine/mine",
     "pages/projects/projects",
     "pages/teams/teams",

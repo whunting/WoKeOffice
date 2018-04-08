@@ -1,1 +1,24 @@
-/* pages/schedule/schedule.wxss */
+.title-bar1{
+  display: flex;
+  padding: 20px;
+  background-color: pink;
+}
+.title-bar2{
+  display: flex;
+  padding: 20px;
+  background-color: yellow;
+}
+.title-bar3{
+  display: flex;
+  padding: 20px;
+  background-color: green;
+}
+.label1{
+  font-size: 15px;
+}
+.label2{
+  font-size: 15px;
+}
+.label3{
+  font-size: 15px;
+}
