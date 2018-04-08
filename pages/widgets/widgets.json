@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "Todo",
-  "backgroundTextStyle": "dark",
-  "enablePullDownRefresh": true,
-  "usingComponents": {
-    "component-tag-name": "../../components/search/search"
-  }
-}
