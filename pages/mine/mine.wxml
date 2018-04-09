@@ -1,13 +1,15 @@
-<view>
-  <image class="avatar" src='{{userInfo.avatarUrl}}'></image>  
-  <view class="nickname">{{userInfo.nickName}}</view>  
+<view class="container">
+  <view class="mine-info-holder">
+    <image class="avatar" src='{{userInfo.avatarUrl}}'></image>  
+    <view class="nickname">{{userInfo.nickName}}</view>  
+    <text class="wxid">微信号：wht990822</text>
+  </view>
+  <view class="item-holder">
+    <image class="item-icon"></image>
+    <text class="item-label">我的日程</text>
+  </view>
+  <view class="item-holder">
+    <image class="item-icon"></image>
+    <text class="item-label">我的任务</text>
+  </view>
 </view>
-<view class="title-bar1">
-      <text class="label1">hunting\n微信号：wht990822</text>
-  </view>
-<view class="title-bar2">
-      <text class="label2">个人日程</text>
-  </view>
-<view class="title-bar3">
-      <text class="label3">任务（我创建的以及有关我的）</text>
-  </view>
