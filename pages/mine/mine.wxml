@@ -4,12 +4,16 @@
     <view class="nickname">{{userInfo.nickName}}</view>  
     <text class="wxid">微信号：wht990822</text>
   </view>
-  <view class="item-holder">
+  <view class="item-holder" bindtap="mySchedule">
     <image class="item-icon"></image>
     <text class="item-label">我的日程</text>
   </view>
-  <view class="item-holder">
+  <view class="item-holder" bindtap="myTodo">
     <image class="item-icon"></image>
     <text class="item-label">我的任务</text>
+  </view>
+  <view class="item-holder" bindtap="settings">
+    <image class="item-icon"></image>
+    <text class="item-label">设置</text>
   </view>
 </view>
