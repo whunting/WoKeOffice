@@ -1,1 +1,41 @@
-/* pages/projects/projects.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+.up{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  border-bottom: 1rpx solid black;
+  border-top: 1rpx solid black;
+  width: 100%;
+  height: 10%;
+  top: 0;
+  left: 0;
+}
+.middle{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  border-bottom: 1rpx solid black;
+  width: 100%;
+  height: 10%;
+  top: 10%;
+  left: 0;
+}
+/*label0 顶部字体*/
+.label0{
+  padding-left: 50rpx;
+  line-height: 3;
+}
+.text{
+  background-color:pink;
+  width: 80%;
+  top: 25%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  
+}
