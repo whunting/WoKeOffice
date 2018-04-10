@@ -1,4 +1,4 @@
-<view class="container">
+<view class="container-default">
   <view class="frame1">
     <!-- 图标 -->
     <text class="label1">精弘网络产品开发部</text>
@@ -9,6 +9,7 @@
     <text class="label1">蜗壳办公开发团队</text>
     <text class="label2" decode="{{true}}" space="{{true}}">3人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3项目&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;26任务</text>
   </view> 
+  
   <view class="button-creat">
     <button class="weui_btn_mini" type="primary" bindtap="createTeam">创建团队</button>
   </view>

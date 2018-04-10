@@ -1,7 +1,7 @@
-/**app.wxss**/
 @import 'weui.wxss';
 
-.container {
+/** 妈的这个名字要改，不然page里面container会调用这里面的 **/
+.container-default {
   height: 100%;
   display: flex;
   flex-direction: column;

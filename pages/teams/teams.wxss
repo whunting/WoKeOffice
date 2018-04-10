@@ -1,4 +1,3 @@
-/* pages/teams/teams.wxss */
 .container{
   display: flex;
   flex-direction: column;
@@ -45,6 +44,14 @@
   position: fixed;
 }
 
+/** 基于weui的button做了些附加属性 **/
+.weui_btn_mini{
+  box-shadow: 6rpx 10rpx 20rpx rgb(176, 187, 197);
+  width: 180rpx;
+  height: 70rpx;
+  font-size: 28rpx;
+}
+
 .up{
   display: flex;
   flex-direction: column;
@@ -56,6 +63,7 @@
   top: 0;
   left: 0;
 }
+
 .middle{
   display: flex;
   flex-direction: column;
