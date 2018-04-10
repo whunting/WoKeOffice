@@ -1,2 +1,13 @@
-<!--pages/projects/projects.wxml-->
-<text>pages/projects/projects.wxml</text>
+<view class = "container">
+  <view class = "up">
+    <text class = "label0">项目</text>
+  </view>
+  <view class = "middle">
+    
+  </view>
+  <label class = "text">
+    <label class="checkbox" wx:for="{{items}}">
+      <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+    </label>
+  </label>
+</view>

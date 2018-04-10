@@ -15,4 +15,6 @@
   <view class="up">
     <text class="label0">团队</text>
   </view>
+  <view class = "middle">
+  </view>
 </view>
