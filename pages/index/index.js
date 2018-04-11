@@ -1,18 +1,15 @@
 //index.js
 //获取应用实例
 const app = getApp();
-const AV = require('../../utils/av-weapp-min.js');
+const AV = require('../../utils/av-live-query-weapp-min.js');
 
 var appInstance = getApp()
 console.log(appInstance.globalData.message)
 
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {},
-    hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo'),
-    array: [1, 2, 3, 4, 5]
+    search_suggest: "搜索 昨天的文件",
+    value: null,
   },
   onLoad: function () {
     if (app.globalData.userInfo) {

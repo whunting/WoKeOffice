@@ -1,33 +1,54 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/widgets/widgets"
+    "pages/mine/mine",
+    "pages/projects/projects",
+    "pages/teams/teams",
+    "pages/feeds/feeds"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "DailyWX",
+    "navigationBarTitleText": "蜗壳办公",
     "navigationBarTextStyle": "black",
     "enablePullDownRefresh": false
   },
   "tabBar": {
     "color": "#8A8A8A",
     "selectedColor": "#1296DB",
-
     "list": [
+      {
+        "pagePath": "pages/teams/teams",
+        "text": "团队",
+        "iconPath": "sources/tab/teams.png",
+        "selectedIconPath": "sources/tab/teams_selected.png"
+      },
+      {
+        "pagePath": "pages/projects/projects",
+        "text": "项目",
+        "iconPath": "sources/tab/projects.png",
+        "selectedIconPath": "sources/tab/projects_selected.png"
+      },
       {
         "pagePath": "pages/index/index",
         "text": "主页",
-        "iconPath": "sources/icon/index.png",
-        "selectedIconPath": "sources/icon/index_selected.png"
+        "iconPath": "sources/tab/index.png",
+        "selectedIconPath": "sources/tab/index_selected.png"
       },
       {
-        "pagePath": "pages/widgets/widgets",
-        "text": "控件",
-        "iconPath": "sources/icon/widgets.png",
-        "selectedIconPath": "sources/icon/widgets_selected.png"
+        "pagePath": "pages/feeds/feeds",
+        "text": "动态",
+        "iconPath": "sources/tab/feeds.png",
+        "selectedIconPath": "sources/tab/feeds_selected.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "sources/tab/mine.png",
+        "selectedIconPath": "sources/tab/mine_selected.png"
       }
-    ]
+    ],
+    "position": "bottom"
   },
   "networkTimeout": {
     "request": 5000,
