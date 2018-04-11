@@ -1,20 +1,24 @@
-<view class="container">
-  <view class="frame1">
-    <!-- 图标 -->
-    <text class="label1">精弘网络产品开发部</text>
-    <text class="label2" decode="{{true}}" space="{{true}}">35人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6项目&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;68任务</text>
+<view class="container-default">
+  <!-- tab-head\tab-head-item类写在app.wxss中，作为全局样式方便使用 -->
+  <view class="tab-head">
+    <view class="tab-head-item {{currentTab==0?'active':''}}" data-current="0" bindtap="switchNav">全部团队</view>
+    <view class="tab-head-item {{currentTab==1?'active':''}}" data-current="1" bindtap="switchNav">我创建的</view>
   </view>
-  <view class="frame2">
-    <!-- 图标 -->
-    <text class="label1">蜗壳办公开发团队</text>
-    <text class="label2" decode="{{true}}" space="{{true}}">3人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3项目&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;26任务</text>
-  </view> 
+  <swiper class="tab-content" current="{{currentTab}}" duration="300" bindchange="switchHeadTab">
+    <view class="frame1">
+      <!-- 图标 -->
+      <text class="label1">精弘网络产品开发部</text>
+      <text class="label2" decode="{{true}}" space="{{true}}">35人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6项目&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;68任务</text>
+    </view>
+    <view class="frame2">
+      <!-- 图标 -->
+      <text class="label1">蜗壳办公开发团队</text>
+      <text class="label2" decode="{{true}}" space="{{true}}">3人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3项目&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;26任务</text>
+    </view> 
+  </swiper>
+  
+  
   <view class="button-creat">
     <button class="weui_btn_mini" type="primary" bindtap="createTeam">创建团队</button>
-  </view>
-  <view class="up">
-    <text class="label0">团队</text>
-  </view>
-  <view class = "middle">
   </view>
 </view>

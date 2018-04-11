@@ -1,18 +1,18 @@
 <view class="container">
-  <view class="mine-info-holder">
+  <view class="mine-info-wrapper">
     <image class="avatar" src='{{userInfo.avatarUrl}}'></image>  
     <view class="nickname">{{userInfo.nickName}}</view>  
     <text class="wxid">微信号：wht990822</text>
   </view>
-  <view class="item-holder" bindtap="mySchedule">
+  <view class="item-wrapper" bindtap="mySchedule">
     <image class="item-icon"></image>
     <text class="item-label">我的日程</text>
   </view>
-  <view class="item-holder" bindtap="myTodo">
+  <view class="item-wrapper" bindtap="myTodo">
     <image class="item-icon"></image>
     <text class="item-label">我的任务</text>
   </view>
-  <view class="item-holder" bindtap="settings">
+  <view class="item-wrapper" bindtap="settings">
     <image class="item-icon"></image>
     <text class="item-label">设置</text>
   </view>
