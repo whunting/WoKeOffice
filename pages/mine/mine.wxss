@@ -1,4 +1,6 @@
 .container{
+  width: 100%;
+  height: 100%;
   top: 0;
   left: 0;
   position: relative;
@@ -38,7 +40,6 @@
 .item-wrapper{
   display: flex;
   align-items: center;
-  width: 100%;
   height: 100rpx;
   margin-top: 10rpx;
   padding: 20rpx;

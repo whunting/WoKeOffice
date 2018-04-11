@@ -3,6 +3,7 @@
   flex-direction: column;
   align-content: flex-start;
 }
+
 .up{
   display: flex;
   flex-direction: column;
@@ -14,6 +15,7 @@
   top: 0;
   left: 0;
 }
+
 .middle{
   display: flex;
   flex-direction: column;
@@ -24,11 +26,13 @@
   top: 10%;
   left: 0;
 }
+
 /*label0 顶部字体*/
 .label0{
   padding-left: 50rpx;
   line-height: 3;
 }
+
 .text{
   background-color:pink;
   width: 80%;
@@ -37,5 +41,8 @@
   display: flex;
   flex-direction: column;
   position: fixed;
-  
+}
+
+.tab-head-item{
+  margin: 0 60rpx;
 }

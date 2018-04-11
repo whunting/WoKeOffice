@@ -79,3 +79,7 @@
   padding-left: 50rpx;
   line-height: 3;
 }
+
+.tab-head-item{
+  margin: 0 60rpx;
+}
