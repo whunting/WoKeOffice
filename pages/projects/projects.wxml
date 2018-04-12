@@ -3,10 +3,13 @@
   <view class="tab-head">
       <view class="tab-head-item {{currentTab==0?'active':''}}" data-current="0" bindtap="switchNav">全部项目</view>
       <view class="tab-head-item {{currentTab==1?'active':''}}" data-current="1" bindtap="switchNav">我管理的</view>
-    </view>
+  </view>
     <swiper class="tab-content" current="{{currentTab}}" duration="300" bindchange="switchHeadTab">
       <swiper-item>
         <label class = "text">
+          <view class="tab-content-tab">
+            <text class="tab-content-title">{{currentTitle}}</text>
+          </view>
           <label class="checkbox" wx:for="{{items}}" wx:key="{{items}}">
             <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
           </label>
@@ -14,4 +17,5 @@
       </swiper-item>
       <swiper-item></swiper-item>
     </swiper>
+    <button class="weui_btn_mini" type="primary" bindtap="createTeam">新建项目</button>
 </view>
