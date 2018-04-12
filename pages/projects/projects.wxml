@@ -5,10 +5,13 @@
       <view class="tab-head-item {{currentTab==1?'active':''}}" data-current="1" bindtap="switchNav">我管理的</view>
     </view>
     <swiper class="tab-content" current="{{currentTab}}" duration="300" bindchange="switchHeadTab">
-      <label class = "text">
-        <label class="checkbox" wx:for="{{items}}" wx:key="{{items}}">
-          <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+      <swiper-item>
+        <label class = "text">
+          <label class="checkbox" wx:for="{{items}}" wx:key="{{items}}">
+            <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+          </label>
         </label>
-      </label>
+      </swiper-item>
+      <swiper-item></swiper-item>
     </swiper>
 </view>

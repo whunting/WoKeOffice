@@ -6,7 +6,6 @@ Page({
       { name: '3', value: '页面逻辑设计' },
     ],
     currentTab:0, // 预设当前项的值
-    scrollLeft:0, // tab标题的滚动条位置
   },
   
 
