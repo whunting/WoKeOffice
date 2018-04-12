@@ -6,5 +6,8 @@
     <view class="tab-head-item {{currentTab==2?'active':''}}" data-current="2" bindtap="switchNav">任务动态</view>
   </view>
   <swiper class="tab-content" current="{{currentTab}}" duration="300" bindchange="switchHeadTab">
+    <swiper-item></swiper-item>
+    <swiper-item></swiper-item>
+    <swiper-item></swiper-item>
   </swiper>
 </view>
