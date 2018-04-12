@@ -4,82 +4,17 @@
   align-content: flex-start;
 }
 
-.frame1{
-  position: fixed;
-  left: 10%;
-  top: 25%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 80%;
-  height: 25%;
-  background-color: springgreen;
-}
-
-.frame2{
-  background-color:pink;
-  position: fixed;
-  left: 10%;
-  top: 55%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 80%;
-  height:25%;
-}
-
-.label1{
-  font-size: 35rpx;
-  padding-top: 70rpx;
-  padding-left: 150rpx;
-}
-
-.label2{
-  font-size: 30rpx;
-  padding-top: 50rpx;
-}
-
-.button-creat{
-  top: 85%;
-  position: fixed;
-}
-
-/** 基于weui的button做了些附加属性 **/
-.weui_btn_mini{
-  box-shadow: 6rpx 10rpx 20rpx rgb(176, 187, 197);
-  width: 180rpx;
-  height: 70rpx;
-  font-size: 28rpx;
-}
-
-.up{
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  border-bottom: 1rpx solid black;
-  border-top: 1rpx solid black;
-  width: 100%;
-  height: 10%;
-  top: 0;
-  left: 0;
-}
-
-.middle{
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  border-bottom: 1rpx solid black;
-  width: 100%;
-  height: 10%;
-  top: 10%;
-  left: 0;
-}
-
-.label0{
-  padding-left: 50rpx;
-  line-height: 3;
-}
-
 .tab-head-item{
   margin: 0 60rpx;
+}
+
+.blank{
+  width: 100%;
+  height: 20rpx;
+}
+
+.weui_btn_mini{
+  position: fixed;
+  top: 85%;
+  box-shadow: 2rpx 6rpx 16rpx 4rpx darkgray
 }
