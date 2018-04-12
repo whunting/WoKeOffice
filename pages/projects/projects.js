@@ -6,6 +6,7 @@ Page({
       { name: '3', value: '页面逻辑设计' },
     ],
     currentTab:0, // 预设当前项的值
+    currentTitle:  "“蜗壳办公”产品设计",
   },
   
 
