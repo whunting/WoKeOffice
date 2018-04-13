@@ -55,6 +55,7 @@ App({
   },
   globalData: {
     userInfo: null,
-    message: 'Hello~'
+    message: 'Hello~',
+    thisTeamName: ''
   },
 })

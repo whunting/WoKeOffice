@@ -2,9 +2,9 @@ var app = getApp;
 Page({
 
   data: {
-    teamNumber: 2,
-    projectNumber: 4,
-    todoNumber: 15,
+    teamNumber: 3,
+    projectNumber: 6,
+    mytodoNumber: 4, // 指派给我的任务数，区别于todoNumber
   },
 
   onLoad: function (options) {
@@ -22,24 +22,27 @@ Page({
     })  
   },
 
-  /**
-   * 点击按钮“我的日程”后的处理函数
-   */
-  mySchedule: function () {
-    // 跳转到“我的日程”页面
+  toTeams: function () {
+    wx.switchTab({
+      url: '../teams/teams'
+    })
   },
 
-  /**
-   * 点击按钮“我的任务”后的处理函数
-   */
-  myTodo: function () {
-    // 跳转到“我的任务”页面
+  toProjects: function () {
+    wx.switchTab({
+      url: '../projects/projects'
+    })
   },
 
-  /**
-   * 点击按钮“设置”后的处理函数
-   */
-  settings: function () {
-    // 跳转到“设置”页面
+  toMytodo: function () {
+    // 跳转到“我的任务”界面
+  },
+
+  toMySchedule: function () {
+    // 跳转到“我的日程”界面
+  },
+
+  toSettings: function () {
+    // 跳转到“设置”界面
   },
 })
