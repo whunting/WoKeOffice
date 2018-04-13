@@ -1,2 +1,13 @@
 <!--pages/newTeam/newTeam.wxml-->
-<text>pages/newTeam/newTeam.wxml</text>
+<view class="container-default">
+  <view class="item-wrapper1">
+    <text class="item-label">项目名称</text>
+  </view>
+  <view class="item-wrapper2">
+    <text class="item-label">归入团队</text>
+  </view>
+  <view class="item-wrapper3">
+    <text class="item-label">项目进度规划</text>
+  </view>
+  
+</view>
