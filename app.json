@@ -6,7 +6,8 @@
     "pages/teams/teams",
     "pages/feeds/feeds",
     "pages/newTeam/newTeam",
-    "pages/newProject/newProject"
+    "pages/newProject/newProject",
+    "pages/teamDetail/teamDetail"
   ],
   "window": {
     "backgroundTextStyle": "light",
