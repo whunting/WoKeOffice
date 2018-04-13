@@ -4,7 +4,9 @@
     "pages/mine/mine",
     "pages/projects/projects",
     "pages/teams/teams",
-    "pages/feeds/feeds"
+    "pages/feeds/feeds",
+    "pages/newTeam/newTeam",
+    "pages/newProject/newProject"
   ],
   "window": {
     "backgroundTextStyle": "light",

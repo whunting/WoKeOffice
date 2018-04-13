@@ -10,7 +10,9 @@ Page({
   },
 
   createTeam: function() {
-    // 跳转到“新建团队”页面
+    wx.navigateTo({
+      url: '../newTeam/newTeam'
+    })
   },
 
   /**
