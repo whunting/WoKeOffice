@@ -8,6 +8,10 @@ Page({
     currentTab:0, // 预设当前项的值
     currentTitle:  "“蜗壳办公”产品设计",
   },
+
+  createProjects: function () {
+    // 跳转到“新建项目”页面
+  },
   
 
   /**
