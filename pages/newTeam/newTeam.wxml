@@ -9,5 +9,10 @@
   <view class="item-wrapper3">
     <text class="item-label">项目进度规划</text>
   </view>
-  
+  <view class="item-wrapper4">
+    <text class="item-label">项目成员</text>
+  </view>
+  <view class="item-wrapper5">
+    <text class="item-label">项目公开性</text>
+  </view>
 </view>

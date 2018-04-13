@@ -27,6 +27,32 @@
   background-color: skyblue;
 }
 
+.item-wrapper3{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 302rpx;
+  height: 100rpx;
+  width: 60%;
+  padding: 20rpx;
+  background-color: skyblue;
+  border-bottom: 2rpx black solid;
+}
+
+.item-wrapper4{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 444rpx;
+  height: 100rpx;
+  width: 60%;
+  padding: 20rpx;
+  background-color: skyblue;
+}
+
 .item-label{
   font-size: 30rpx;
 }
+
+
+

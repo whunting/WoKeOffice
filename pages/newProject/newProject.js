@@ -5,8 +5,12 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    items: [
+      { name: 'members', value: '团队成员' },
+      { name: 'public', value: '团队公开性' },
+    ]
   },
+  
 
   /**
    * 生命周期函数--监听页面加载
