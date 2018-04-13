@@ -43,6 +43,12 @@ Page({
   },
 
   toSettings: function () {
+    wx:wx.navigateTo({
+      url: '../settings/settings',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
     // 跳转到“设置”界面
   },
 })

@@ -1,2 +1,10 @@
 <!--pages/newProject/newProject.wxml-->
-<text>pages/newProject/newProject.wxml</text>
+
+<view class="container-default">
+  <view class="item-wrapper1">
+    <text class="item-label">团队名称</text>
+  </view>
+  <view class="item-wrapper2">
+    <text class="item-label">团队归属</text>
+  </view>
+</view>

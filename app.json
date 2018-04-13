@@ -7,7 +7,8 @@
     "pages/feeds/feeds",
     "pages/newTeam/newTeam",
     "pages/newProject/newProject",
-    "pages/teamDetail/teamDetail"
+    "pages/teamDetail/teamDetail",
+    "pages/settings/settings"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -50,6 +51,7 @@
         "iconPath": "sources/tab/mine.png",
         "selectedIconPath": "sources/tab/mine_selected.png"
       }
+      
     ],
     "position": "bottom"
   },
