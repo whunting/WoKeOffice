@@ -17,5 +17,5 @@
       </swiper-item>
       <swiper-item></swiper-item>
     </swiper>
-    <button class="weui_btn_mini" type="primary" bindtap="createTeam">新建项目</button>
+    <button class="weui_btn_mini" type="primary" bindtap="createProject">新建项目</button>
 </view>

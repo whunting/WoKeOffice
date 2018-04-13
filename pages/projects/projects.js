@@ -17,6 +17,10 @@ Page({
   
   },
 
+  createProject: function () {
+    
+  },
+
   /**
    * 滚动切换标签样式
    */
