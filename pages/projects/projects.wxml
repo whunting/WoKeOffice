@@ -10,6 +10,7 @@
           <view class="tab-content-tab">
             <text class="tab-content-title">{{currentTitle}}</text>
           </view>
+          <view class="tab-line"></view>
           <label class="checkbox" wx:for="{{items}}" wx:key="{{items}}">
             <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
           </label>
@@ -17,5 +18,5 @@
       </swiper-item>
       <swiper-item></swiper-item>
     </swiper>
-    <button class="weui_btn_mini" type="primary" bindtap="createTeam">新建项目</button>
+    <button class="weui_btn_mini" type="primary" bindtap="createProjects">新建项目</button>
 </view>
