@@ -6,4 +6,8 @@
     <text class="icon-search"></text>
     <text class="icon-chayuericheng"></text>
   </view>
+  <view class="time-line-title">
+    <text class="title">今日安排</text>
+  </view>
+  <view class="time-line"></view>
 </view>
