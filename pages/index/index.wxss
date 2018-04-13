@@ -42,3 +42,28 @@
   font-size: 50rpx;
   content: "\e668";
 }
+
+.time-line-title{
+  display: flex;
+  position:fixed;
+  height: 80rpx;
+  width: 100%;
+  top: 50%;
+  line-height: 80rpx;
+  background-color: pink;
+}
+
+.title{
+  display: flex;
+  position: absolute;
+  left: 40%;
+}
+
+.time-line{
+  display: flex;
+  position: fixed;
+  height: 40%;
+  width: 50%;
+  bottom: 0;
+  border-right: solid 1rpx black;
+}
