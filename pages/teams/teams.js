@@ -3,6 +3,10 @@ Page({
 
   data: {
     currentTab: 0, // 预设当前项的值
+    teamName: '精弘网络产品开发部',
+    peopleNumber: '35',
+    projectNumber: '6',
+    todoNumber: '68',
   },
 
   onLoad: function (options) {
@@ -10,7 +14,9 @@ Page({
   },
 
   createTeam: function() {
-    // 跳转到“新建团队”页面
+    wx.navigateTo({
+      url: '../newTeam/newTeam'
+    })
   },
 
   /**
@@ -33,5 +39,12 @@ Page({
         currentTab:cur
       })
     }
+  },
+
+  viewTeam1: function () {
+    app.globalData.thisTeamName = this.data.teamName;
+    wx.navigateTo({
+      url: '../teamDetail/teamDetail?teamID=team1'
+    })
   },
 })

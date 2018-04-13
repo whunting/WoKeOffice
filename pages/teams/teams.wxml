@@ -7,11 +7,11 @@
   <swiper class="tab-content" current="{{currentTab}}" bindchange="switchHeadTab">
     <swiper-item>
       <view class="blank"></view>
-      <team-info-card id="team1"
-        teamName='精弘网络产品开发部'
-        peopleNumber= '35'
-        projectNumber= '6'
-        todoNumber= '68'>
+      <team-info-card id="team1" bindtap="viewTeam1"
+        teamName = "{{teamName}}"
+        peopleNumber = "{{peopleNumber}}"
+        projectNumber = "{{projectNumber}}"
+        todoNumber = "{{todoNumber}}">
       </team-info-card>
     </swiper-item>
     <swiper-item>
