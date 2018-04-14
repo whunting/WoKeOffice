@@ -1,0 +1,16 @@
+<!--pages/newProject/newProject.wxml-->
+
+<view class="container-default">
+  <view class="item-wrapper1">
+    <text class="item-label">团队名称</text>
+  </view>
+  <view class="item-wrapper2">
+    <text class="item-label">团队归属</text>
+  </view>
+  <view class="item-wrapper3">
+    <text class="item-label">团队成员</text>
+  </view>
+  <view class="item-wrapper4">
+    <text class="item-label">团队公开性</text>
+  </view>
+  </view>

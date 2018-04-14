@@ -38,6 +38,18 @@ Page({
         }
       })
     }
+    wx.showShareMenu({
+      withShareTicket: true,
+      success: function (res) {
+        // 分享成功
+        console.log('shareMenu share success')
+        console.log('分享'+res)
+      },
+      fail: function(res) {
+        // 分享失败
+        console.log(res)
+      }
+    })
   },
   getUserInfo: function(e) {
     console.log(e)
@@ -46,5 +58,26 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+
+  onShareAppMessage: function () {
+    return {
+      title: '分享一款超棒的团队办公小程序',
+      path: '/pages/index/index',
+      success: function (res) {
+        console.log(res.shareTickets[0])
+        // console.log
+        wx.getShareInfo({
+          shareTicket: res.shareTickets[0],
+          success: function (res) { console.log(res) },
+          fail: function (res) { console.log(res) },
+          complete: function (res) { console.log(res) }
+        })
+      },
+      fail: function (res) {
+        // 分享失败
+        console.log(res)
+      }
+    }
   }
 })

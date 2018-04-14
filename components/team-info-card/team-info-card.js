@@ -1,10 +1,30 @@
-// components/team-info-card/team-info-card.js
 Component({
+  options: {
+    multipleSlots: true
+  },
   /**
    * 组件的属性列表
    */
   properties: {
+    teamName: {
+      type: String,
+      value: '项目名称'
+    },
+     
+    peopleNumber: {
+      type: String,
+      value: '0'
+    },
 
+    projectNumber: {
+      type: String,
+      value: '0'
+    },
+
+    todoNumber: {
+      type: String,
+      value: '0'
+    },
   },
 
   /**

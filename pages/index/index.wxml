@@ -3,11 +3,11 @@
     <view class="search-input-wrapper">
         <input class="search-input" placeholder="{{search_suggest}}" value="{{draft}}"></input>
     </view>
-    <view class="title-bar-btn-wrapper">
-        <image class="title-bar-btn" src="../../sources/icon/search.png"></image>
-    </view>
-    <view class="title-bar-btn-wrapper">
-        <image class="title-bar-btn" src="../../sources/icon/notifications.png"></image>
-    </view>
+    <text class="icon-search"></text>
+    <text class="icon-chayuericheng"></text>
   </view>
+  <view class="time-line-title">
+    <text class="title">今日安排</text>
+  </view>
+  <view class="time-line"></view>
 </view>
